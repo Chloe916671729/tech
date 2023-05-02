@@ -14,7 +14,7 @@ ul{
 }
 
 #menu-word{
-    text-decoration: none;
+    text-decoration: underline;
     color: #D8EBF2;
     font-family: Microsoft-JhengHei;
     font-size: 20px;
@@ -92,28 +92,34 @@ ul{
 }
 
 .paragraph-one{
-    padding: 5% 10% 5%;
+    padding: 5% 20% 0%;
 }
 
 .title-content{
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .content{
-    font-size: 20px;
     letter-spacing: 0.5px;
     line-height: 40px;
 }
 
+.description{
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+
 #content-index{
-    text-decoration: none;
+    text-decoration: underline;
     color: #000000;
     font-family: Microsoft-JhengHei;
     font-size: 20px;
     background-color: transparent;
     letter-spacing: 1.5px;
     line-height:40px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 #content-index:hover{
@@ -139,7 +145,11 @@ ul{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .title-content{
-        font-size: 18px;}
+        font-size: 20px;}
+
+    .content{
+        font-size: 17px;
+    }
 
 }
 
@@ -147,19 +157,29 @@ ul{
 @media only screen and (min-width: 600px) {
     .title-content{
         font-size: 20px;}
+
+    .content{
+        font-size: 17px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .title-content{
-        font-size: 22.5px;
+        font-size: 25px;
+    }
+    .content{
+        font-size: 17px;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .title-content{
-        font-size: 25px;
+        font-size: 30px;
+    }
+    .content{
+        font-size: 20px;
     }
 
 }
@@ -167,7 +187,10 @@ ul{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .title-content{
-        font-size: 27px;
+        font-size: 30px;
+    }
+    .content{
+        font-size: 20px;
     }
 
 }
