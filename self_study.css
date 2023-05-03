@@ -95,6 +95,14 @@ ul{
     padding: 5% 20% 0%;
 }
 
+.paragraph-bar{
+    padding: 10% 0% 0% 20%;
+}
+
+.paragraph-dic{
+    padding: 5% 0% 0% 10%;
+}
+
 .title-content{
     font-weight: 400;
 }
@@ -135,7 +143,7 @@ ul{
 
 .index-container{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr;
 
 }
 
